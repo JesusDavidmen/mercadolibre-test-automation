@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1761911518817' stop='1761911709568'>
+    <name>Buscar PlayStation 5 en MercadoLibre:</name>
+    <title>Buscar PlayStation 5 en MercadoLibre:</title>
+    <test-cases>
+        <test-case start='1761911521244' status='passed' stop='1761911708894'>
+            <name>Ordenar productos nuevos por mayor precio y validar ubicación</name>
+            <title>Ordenar productos nuevos por mayor precio y validar ubicación</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1761911524577' status='passed' stop='1761911526672'>
+                    <name>I am on page "https://www.mercadolibre.com"</name>
+                    <title>I am on page "https://www.mercadolibre.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911526674' status='passed' stop='1761911528135'>
+                    <name>I click "México"</name>
+                    <title>I click "México"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911528141' status='passed' stop='1761911540105'>
+                    <name>I fill field "input[name="as_word"]", "playstation 5"</name>
+                    <title>I fill field "input[name="as_word"]", "playstation 5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911540106' status='passed' stop='1761911540362'>
+                    <name>I press key "Enter"</name>
+                    <title>I press key "Enter"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911540363' status='passed' stop='1761911543455'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911543455' status='passed' stop='1761911546564'>
+                    <name>I click "//a[contains(., "Nuevo")]"</name>
+                    <title>I click "//a[contains(., "Nuevo")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911546565' status='passed' stop='1761911548606'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911548607' status='passed' stop='1761911549485'>
+                    <name>I wait for element "button[data-js="onboarding-cp-open"]", 5</name>
+                    <title>I wait for element "button[data-js="onboarding-cp-open"]", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911549487' status='passed' stop='1761911549755'>
+                    <name>I see element "button[data-js="onboarding-cp-open"]"</name>
+                    <title>I see element "button[data-js="onboarding-cp-open"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911549758' status='passed' stop='1761911701233'>
+                    <name>I click "button[aria-label="Más relevantes"]"</name>
+                    <title>I click "button[aria-label="Más relevantes"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911701236' status='passed' stop='1761911701287'>
+                    <name>I wait for element "//span[contains(., "Mayor precio")]", 20</name>
+                    <title>I wait for element "//span[contains(., "Mayor precio")]", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911701288' status='passed' stop='1761911702613'>
+                    <name>I click "//span[contains(., "Mayor precio")]"</name>
+                    <title>I click "//span[contains(., "Mayor precio")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911702619' status='passed' stop='1761911704658'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911704660' status='passed' stop='1761911708219'>
+                    <name>I grab text from all "//a[contains(@class,"poly-component__title")] | //h2[contains(@class,"ui-search-item__title")]"</name>
+                    <title>I grab text from all "//a[contains(@class,"poly-component__title")] | //h2[contains(@class,"ui-search-item__title")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1761911708220' status='passed' stop='1761911708891'>
+                    <name>I grab text from all "//span[contains(@class,"andes-money-amount__fraction")]"</name>
+                    <title>I grab text from all "//span[contains(@class,"andes-money-amount__fraction")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
